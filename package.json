@@ -1,6 +1,6 @@
 {
   "name": "navbar-for-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A easy way to create",
   "main": "NavBar.jsx",
   "scripts": {
