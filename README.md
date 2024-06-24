@@ -46,7 +46,7 @@ export default App;
 
 Tú pagina se deberia de ver así:
 
-![Imagen de la pagina](./img.png)
+![Imagen de la pagina](https://i.postimg.cc/jjgC9rNW/img.png)
 
 # NOTA:
 
@@ -54,7 +54,7 @@ Recuerda poner los colores en hex. En caso de no poner colores, o no ponerlos bi
 
 Tú pagina se veria así:
 
-![Imagen de la pagina 2](./img2.png)
+![Imagen de la pagina 2](https://i.postimg.cc/Ssnjbt7g/img2.png)
 
 ## Props
 
