@@ -2,7 +2,7 @@
   "name": "navbar-for-react",
   "version": "1.0.1",
   "description": "A easy way to create",
-  "main": "index.jsx",
+  "main": "NavBar.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
