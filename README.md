@@ -12,7 +12,7 @@ Puedes instalar el paquete usando npm o yarn:
 ```bash
 npm install navbar-for-react
 ```
-# o
+o
 ```bash
 yarn add navbar-for-react
 ```
@@ -53,6 +53,7 @@ Tú pagina se deberia de ver así:
 Recuerda poner los colores en hex. En caso de no poner colores, o no ponerlos bien, el NavBar tendrá de fondo un color blanco y el color del texto será negro
 
 Tú pagina se veria así:
+
 ![Imagen de la pagina 2](./img2.png)
 
 ## Props
