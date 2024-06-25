@@ -4,11 +4,11 @@
 [![CI Tests](https://github.com/TGSsirrett31/navbar-for-react/actions/workflows/ci.yml/badge.svg)](https://github.com/TGSsirrett31/navbar-for-react/actions/workflows/ci.yml)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-Una forma sencilla de crear una barra de navegación en tus proyectos de React.
+A simple way to create a navigation bar in your React projects.
 
-## Instalación
+## Installation
 
-Puedes instalar el paquete usando npm o yarn:
+You can install the package using npm or yarn:
 
 ```bash
 npm install navbar-for-react
@@ -18,7 +18,7 @@ o
 yarn add navbar-for-react
 ```
 
-# Uso
+# Usage
 
 ```jsx
 import React from 'react';
@@ -45,21 +45,21 @@ const App = () => {
 export default App;
 ```
 
-Tú pagina se deberia de ver así:
+Your page should look like this:
 
 ![Imagen de la pagina](https://i.postimg.cc/jjgC9rNW/img.png)
 
-# NOTA:
+# NOTE:
 
-Recuerda poner los colores en hex. En caso de no poner colores, o no ponerlos bien, el NavBar tendrá de fondo un color blanco y el color del texto será negro
+Remember to use hex color codes. If you don't specify colors or specify them incorrectly, the NavBar will have a white background and black text by default.
 
-Tú pagina se veria así:
+Your page would look like this:
 
 ![Imagen de la pagina 2](https://i.postimg.cc/Ssnjbt7g/img2.png)
 
-También se puede usar la propiedad **logoImg**, que en vez de mostrar un texto en el logo, mostrará una imagen, pero tienes que decidir entre la imagen y el texto, no puedes poner los dos.
+You can also use the **logoImg** property, which will show an image instead of text for the logo, but you have to choose between the image and the text, you can't use both.
 
-Si haces los pasos correctamente, tú codigo se veria así:
+If you follow the steps correctly, your code would look like this:
 
 ```jsx
 import React from 'react';
@@ -87,30 +87,29 @@ const App = () => {
 export default App;
 ```
 
-Y tú pagina tal que así:
+And your page would look like this:
 
 ![Imagen de la pagina 3](https://i.postimg.cc/tg1T2KsR/img3.png))
 
 ## Props
-
-| Prop               | Tipo     | Descripción                                         |
-|--------------------|----------|-----------------------------------------------------|
-| `logoText`         | `string` | El texto que se mostrará como logo.                 |
-| `logoImg`          | `string` | La URL de la imagen que se mostrará como logo.      |
-| `link1`            | `string` | Texto del primer enlace de navegación.              |
-| `link2`            | `string` | Texto del segundo enlace de navegación.             |
-| `link3`            | `string` | Texto del tercer enlace de navegación.              |
-| `link4`            | `string` | Texto del cuarto enlace de navegación.              |
-| `link1_direction`  | `string` | URL del primer enlace de navegación.                |
-| `link2_direction`  | `string` | URL del segundo enlace de navegación.               |
-| `link3_direction`  | `string` | URL del tercer enlace de navegación.                |
-| `link4_direction`  | `string` | URL del cuarto enlace de navegación.                |
-| `backgroundColor`  | `string` | Color del fondo del NavBar.                         |
-| `textColor`        | `string` | Color del texto del NavBar.                         |
-| `hoverColor`       | `string` | Color al pasar el mouse por los links. Pred: Azul   |
+| Prop               | Type     | Required | Default | Description                                                                 |
+|--------------------|----------|----------|---------|-----------------------------------------------------------------------------|
+| `logoText`         | `string` | No       | -       | The text to be displayed as the logo.                                       |
+| `logoImg`          | `string` | No       | -       | The URL of the image to be displayed as the logo.                           |
+| `link1`            | `string` | Yes      | -       | Text of the first navigation link.                                          |
+| `link2`            | `string` | Yes      | -       | Text of the second navigation link.                                         |
+| `link3`            | `string` | No       | -       | Text of the third navigation link.                                          |
+| `link4`            | `string` | No       | -       | Text of the fourth navigation link.                                         |
+| `link1_direction`  | `string` | No       | -       | URL of the first navigation link.                                           |
+| `link2_direction`  | `string` | No       | -       | URL of the second navigation link.                                          |
+| `link3_direction`  | `string` | No       | -       | URL of the third navigation link.                                           |
+| `link4_direction`  | `string` | No       | -       | URL of the fourth navigation link.                                          |
+| `backgroundColor`  | `string` | No       | `#fff`  | Background color of the NavBar.                                             |
+| `textColor`        | `string` | No       | `#000`  | Text color of the NavBar.                                                   |
+| `hoverColor`       | `string` | No       | `blue`  | Hover color for the links.                                                  |
 
 # HELP:
 
-Si necesitas ayuda puedes irte al forum de nuestro canal de discord:
+If you need help, you can visit our Discord channel forum:
 
 **[![Discord](https://img.shields.io/badge/Button-Click%20Here-blue)](https://discord.gg/C5ZZebVjcC)**
