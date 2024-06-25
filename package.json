@@ -9,13 +9,20 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "babel-jest": "^27.0.6",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-react": "^7.14.5"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "author": "Sebastián Sirrett",
   "license": "ISC",
-  "dependencies": {
-    "@babel/preset-env": "^7.24.7",
-    "@babel/preset-react": "^7.24.7",
-    "prop-types": "^15.8.1"
+  "jest": {
+    "testMatch": ["**/__tests__/**/*.js"],
+    "testPathIgnorePatterns": ["/node_modules/"]
   }
 }

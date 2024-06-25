@@ -23,8 +23,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: List files in repository for debugging
-        run: ls -R
-
       - name: Run tests with Jest
         run: npm test
