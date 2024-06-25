@@ -3,6 +3,13 @@ module.exports = {
     transform: {
       '^.+\\.jsx?$': 'babel-jest'
     },
-    testMatch: ['**/__tests__/**/*.js'],
-    testPathIgnorePatterns: ['/node_modules/']
-};
+    moduleNameMapper: {
+      '\\.css$': '<rootDir>/__mocks__/styleMock.js'
+    },
+    testMatch: [
+      "**/__tests__/**/*.js",
+      "**/?(*.)+(spec|test).js"
+    ],
+    moduleFileExtensions: ["js", "jsx"]
+  };
+  
