@@ -16,5 +16,9 @@
   "license": "ISC",
   "dependencies": {
     "prop-types": "^15.8.1"
+  },
+  "jest": {
+    "testMatch": ["**/__tests__/**/*.js", "**/?(*.)+(spec|test).js"],
+    "testPathIgnorePatterns": ["/node_modules/"]
   }
 }
