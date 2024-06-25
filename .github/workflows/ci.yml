@@ -25,3 +25,9 @@ jobs:
 
       - name: Run tests with Jest
         run: npm test
+      
+      - name: Run tests with Jest
+        run: npm test -- --testPathPattern=__tests__/*.test.js
+        
+      - name: List files in repository
+        run: ls -R
