@@ -112,4 +112,4 @@ Y tú pagina tal que así:
 
 Si necesitas ayuda puedes irte al forum de nuestro canal de discord:
 
-**[![button](https://img.shields.io/badge/Button-Click%20Here-blue)](https://discord.gg/C5ZZebVjcC)**
+**[![Discord](https://img.shields.io/badge/Button-Click%20Here-blue)](https://discord.gg/C5ZZebVjcC)**
