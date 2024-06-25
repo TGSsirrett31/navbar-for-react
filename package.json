@@ -14,10 +14,8 @@
   "author": "Sebastián Sirrett",
   "license": "ISC",
   "dependencies": {
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
     "prop-types": "^15.8.1"
-  },
-  "jest": {
-    "testMatch": ["**/__tests__/**/*.js"],
-    "testPathIgnorePatterns": ["/node_modules/"]
   }
 }
