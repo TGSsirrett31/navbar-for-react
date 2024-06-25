@@ -4,8 +4,7 @@
   "description": "Navbar for react is an open source NodeJs module that tries to make creating websites much easier, with a super practical and responsive navbar.",
   "main": "index.jsx",
   "scripts": {
-    "test": "jest",
-    "build": "babel src -d dist"
+    "test": "jest --testMatch='**/__tests__/**/*.js' --testPathIgnorePatterns='/node_modules/'"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
