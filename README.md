@@ -1,6 +1,7 @@
 # Navbar for React
 
 [![npm version](https://badge.fury.io/js/navbar-for-react.svg)](https://badge.fury.io/js/navbar-for-react)
+[![CI Tests](https://github.com/TGSsirrett31/navbar-for-react/actions/workflows/ci.yml/badge.svg)](https://github.com/TGSsirrett31/navbar-for-react/actions/workflows/ci.yml)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 Una forma sencilla de crear una barra de navegación en tus proyectos de React.
