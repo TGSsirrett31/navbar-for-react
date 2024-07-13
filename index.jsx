@@ -1,6 +1,6 @@
 import React from 'react';
-import './index.css';
 import PropTypes from 'prop-types';
+import './index.css';
 
 function NavBar({ logoText, logoImg, link1, link2, link3, link4, link1_direction, link2_direction, link3_direction, link4_direction, backgroundColor, textColor, hoverColor = 'blue' }) {
     if ((!logoText && !logoImg) || (logoText && logoImg)) {
