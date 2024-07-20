@@ -5,12 +5,14 @@
   background: #fff;
   z-index: 10;
   position: fixed;
+  height: 100%;
   top: 0;
   left: 0;
   right: 0; 
-  height: 60px;
+  height: 55px;
   width: 100%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: all 300ms;
 }
   
 .navbar__logo {
@@ -47,4 +49,72 @@
 
 .navbar ul li a:hover {
   color: var(--hover-color, #3b83bd);
+}
+
+.nav__mod{
+  height: 65px;
+  box-shadow: 1px 1px 10px 0px #00000010;
+  background: #fff;
+}
+
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  top: 10px; /* Margen superior para separar la barra de navegación del contenido */
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.nav-bar {
+  width: auto;
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+  background-color: transparent;
+  justify-content: center;
+  transition: all 300ms;
+  padding: 0 1rem; /* Ajuste de padding para centrar */
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-bar ul li {
+  margin: 0 22px;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.3s all ease-in-out;
+}
+
+.nav-bar ul li a:hover {
+  color: yellow;
+}
+
+.move {
+  background: rgba(229, 231, 235, 0.8); /* Fondo semi-transparente */
+  color: #000;
+  padding: 0.50rem;
+  border-radius: 9999px;
+  backdrop-filter: blur(10px); /* Efecto de desenfoque */
+}
+
+.move ul li a {
+  color: #000;
+}
+
+.active {
+  color: yellow;
 }

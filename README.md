@@ -22,11 +22,12 @@ yarn add navbar-for-react
 
 ```jsx
 import React from 'react';
-import NavBar from 'navbar-component-react';
+import NavBar from 'navbar-for-react';
 
 const App = () => {
   return (
     <NavBar 
+      style="common"
       logoText="MyLogo"
       link1="Home"
       link2="About"
@@ -63,12 +64,13 @@ If you follow the steps correctly, your code would look like this:
 
 ```jsx
 import React from 'react';
-import NavBar from 'navbar-component-react';
-import logoImg from './ruta/del/archivo'
+import NavBar from 'navbar-for-react';
+import logoImg from './path/to/image.png'
 
 const App = () => {
   return (
     <NavBar 
+      style="common"
       logoImg={logoImg}
       link1="Home"
       link2="About"
@@ -89,11 +91,52 @@ export default App;
 
 And your page would look like this:
 
-![Imagen de la pagina 3](https://i.postimg.cc/tg1T2KsR/img3.png))
+![Imagen de la pagina 3](https://i.postimg.cc/tg1T2KsR/img3.png)
+
+Version 0.1.1 has brought with it the new property: **Style**. With this property, you can change how your NavBar will look. 
+
+At the moment we only have two styles: **common and withoutLogo**. If you do not specify a style, the default style will be: **common**, the NavBar style that we all know. 
+
+If you specify the style you want, you can choose between: **common and withoutLogo**. If you choose **withoutLogo**, your code would look like this:
+
+```jsx
+import React from 'react';
+import NavBar from 'navbar-for-react';
+import logoImg from './path/to/image.png'
+
+const App = () => {
+  return (
+    <NavBar 
+      style="withoutLogo"
+      link1="Home"
+      link2="About"
+      link3="Services"
+      link4="Contact"
+      link1_direction="/"
+      link2_direction="/about"
+      link3_direction="/services"
+      link4_direction="/contact"
+    />
+  );
+};
+
+export default App;
+```
+
+Here you will not be able to add logos.
+
+From first hand, your page would look like this:
+
+![Imagen de la pagina 4](https://postimg.cc/06qrgGX4)
+
+If you scroll a little, your page would look like this:
+
+![Imagen de la pagina 5](https://postimg.cc/DmqTHk37)
 
 ## Props
 | Prop               | Type     | Required | Default | Description                                                                 |
 |--------------------|----------|----------|---------|-----------------------------------------------------------------------------|
+| `style`            | `string` | No       |`common` | The Style of NavBar. Options are `common` or `withoutLo                     |
 | `logoText`         | `string` | No       | -       | The text to be displayed as the logo.                                       |
 | `logoImg`          | `string` | No       | -       | The URL of the image to be displayed as the logo.                           |
 | `link1`            | `string` | Yes      | -       | Text of the first navigation link.                                          |
