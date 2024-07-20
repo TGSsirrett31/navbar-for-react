@@ -127,11 +127,11 @@ Here you will not be able to add logos.
 
 From first hand, your page would look like this:
 
-[Imagen de la pagina 4](https://i.postimg.cc/hGXmdpLK/Captura-de-Pantalla-2024-07-20-a-la-s-2-31-49-a-m.png)
+![Imagen de la pagina 4](https://i.postimg.cc/Pqfpjhf3/img4.png)
 
 If you scroll a little, your page would look like this:
 
-[Imagen de la pagina 5](https://i.postimg.cc/HWNkJdS8/Captura-de-Pantalla-2024-07-20-a-la-s-2-34-34-a-m.png)
+![Imagen de la pagina 5](https://i.postimg.cc/CKwDxk74/img5.png)
 
 ## Props
 | Prop               | Type     | Required | Default | Description                                                                 |
