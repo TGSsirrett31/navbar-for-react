@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import '../index.css';
 
-function NavBarWithoutLogo({ link1, link2, link3, link4, l1, l2, l3, l4, textColor }) {
+function NavBarWithoutLogo({ link1, link2, link3, link4, l1, l2, l3, l4, textColor, hoverColor }) {
     const [scroll, setScroll] = useState(0);
     const [activeLink, setActiveLink] = useState(null);
 
@@ -23,7 +23,7 @@ function NavBarWithoutLogo({ link1, link2, link3, link4, l1, l2, l3, l4, textCol
 
     return (
         <div className="nav-bar-container">
-            <div className={`nav-bar ${scroll > 20 ? 'move' : ''}`}>
+            <div className={`nav-bar ${scroll > 20 ? 'move' : ''}`} style={{'--hover-color': hoverColor}}>
                 <ul>
                     <li>
                         <a

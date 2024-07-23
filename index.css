@@ -100,7 +100,7 @@
 }
 
 .nav-bar ul li a:hover {
-  color: yellow;
+  color: var(--hover-color, #3b83bd);
 }
 
 .move {
@@ -116,5 +116,5 @@
 }
 
 .active {
-  color: yellow;
+  color: var(--hover-color, #3b83bd);
 }

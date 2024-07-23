@@ -1,12 +1,14 @@
 {
   "name": "navbar-for-react",
-  "version": "0.1.1111",
+  "version": "0.2.0",
   "description": "Navbar for react is an open source NodeJs module that tries to make creating websites much easier, with a super practical and responsive navbar.",
   "main": "index.jsx",
   "scripts": {
     "test": "jest"
   },
   "dependencies": {
+    "babel": "^6.23.0",
+    "path": "^0.12.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
