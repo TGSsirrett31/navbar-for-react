@@ -1,6 +1,5 @@
 import React from 'react';
 import propTypes from 'prop-types';
-import defaultProps from 'prop-types';
 import './index.css';
 import NavBarDefault from './otherStyles/NavBarCommon';
 import NavBarWithoutLogo from './otherStyles/NavBarWithoutLogo';
@@ -89,7 +88,7 @@ NavBar.propTypes = {
 };
 
 
-NavBar.defaultProps = {
+NavBar.DefaultProps = {
   style: 'common'
 };
 
